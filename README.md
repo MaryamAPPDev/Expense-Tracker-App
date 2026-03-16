@@ -47,20 +47,6 @@ A beautiful Flutter-based expense tracking app with Hive local database, MVVM ar
 ![Settings](screenshots/settings.png)
 
 
-## 👥 Contributors
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/MaryamAPPDev">
-      </a>
-      <br />
-      <sub>Developer & Designer</sub>
-    </td>
-  </tr>
-</table>
-
-
 ## 📦 Dependencies
 
 ```yaml
@@ -74,3 +60,13 @@ dependencies:
   uuid: ^4.5.1
   intl: ^0.19.0
   fl_chart: ^0.70.0
+```
+
+### 👤 Author & Contact
+
+<div align="center">
+
+### **MaryamAppDev**
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MaryamAPPDev)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maryamappdev@gmail.com)
+
