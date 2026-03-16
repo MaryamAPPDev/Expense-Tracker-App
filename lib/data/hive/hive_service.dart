@@ -3,6 +3,8 @@ import '../models/category_model.dart';
 import '../models/transaction_model.dart';
 
 class HiveService {
+  HiveService._();
+
   static const String transactionsBox = 'transactionsBox';
   static const String categoriesBox = 'categoriesBox';
   static const String settingsBox = 'settingsBox';
@@ -11,11 +13,14 @@ class HiveService {
   static Future<void> init() async {
     await Hive.initFlutter();
 
-    // Register Adapters
-    Hive.registerAdapter(CategoryModelAdapter());
-    Hive.registerAdapter(TransactionModelAdapter());
+    if (!Hive.isAdapterRegistered(0)) {
+      Hive.registerAdapter(CategoryModelAdapter());
+    }
 
-    // Open Boxes
+    if (!Hive.isAdapterRegistered(1)) {
+      Hive.registerAdapter(TransactionModelAdapter());
+    }
+
     await Hive.openBox<TransactionModel>(transactionsBox);
     await Hive.openBox<CategoryModel>(categoriesBox);
     await Hive.openBox(settingsBox);
