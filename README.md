@@ -1,56 +1,74 @@
 # Smart Expense Tracker
 
-A Flutter-based expense tracking app with Hive local database, MVVM architecture, and rich features including categories, reports, budget tracking, CSV export, dark mode, and more.
+A beautiful Flutter-based expense tracking app with Hive local database, MVVM architecture, dark mode, budget tracking, reports with pie charts, and CSV export.
 
 ![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
 ![Hive](https://img.shields.io/badge/Hive-FFCA28?logo=hive&logoColor=black)
 
-## Features
+## ✨ Features
 
-- **Add, Edit & Delete Transactions**
-  - Income & Expense types
-  - Assign categories
-  - Add optional notes
+- Add, Edit & Delete Transactions (Income & Expense)
+- Categories Management (Default + Custom)
+- Dashboard with Total Balance, Income & Expenses
+- Recent Transactions Overview
+- Reports & Analytics with Pie Chart
+- Search & Filter Transactions (Today, This Week, This Month)
+- Monthly Budget Tracking
+- Dark / Light Theme Toggle
+- Export Transactions to CSV
+- Add Dummy Data for Testing
+- Fully Offline using Hive Database
 
-- **Categories Management**
-  - Default categories: Food, Transport, Shopping, Bills, Health, Salary
-  - Add/Delete custom categories
+## 🏗️ Architecture
 
-- **Dashboard**
-  - Total balance, income, and expenses
-  - Recent transactions overview
-
-- **Reports & Analytics**
-  - Pie chart of expenses by category
-  - Total expenses summary
-
-- **Search & Filter Transactions**
-  - Search by title or note
-  - Filter by All, Today, This Week, or This Month
-
-- **Settings**
-  - Dark/Light theme toggle
-  - Set monthly budget
-  - Export transactions to CSV
-  - Add dummy data for testing
-
-- **Persistence**
-  - All data is stored locally using Hive
-  - Categories, transactions, settings, and budget persisted
-
-## Architecture
-
-The app follows **MVVM (Model-View-ViewModel)** pattern:
+**MVVM Pattern** with Provider state management
 
 - **Models**: `TransactionModel`, `CategoryModel`
 - **Repositories**: Transactions, Categories, Settings, Budget
 - **ViewModels**: TransactionViewModel, CategoryViewModel, SettingsViewModel
-- **Screens**: Splash, Home (with bottom nav), Add/Edit Transaction, All Transactions, Reports, Settings
-- **State Management**: Provider + ChangeNotifier
-- **Local Database**: Hive Boxes (`transactionsBox`, `categoriesBox`, `settingsBox`, `budgetBox`)
+- **Local Storage**: Hive (`transactionsBox`, `categoriesBox`, `settingsBox`, `budgetBox`)
 
-## Dependencies
+## 📱 Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Add Transaction
+![Add Transaction](screenshots/add_transaction.png)
+
+### All Transactions
+![All Transactions](screenshots/all_transactions.png)
+
+### Reports / Analytics
+![Reports](screenshots/reports.png)
+
+### Settings
+![Settings](screenshots/settings.png)
+
+> **Tip**: Create a `screenshots` folder in your project root and place your screenshot images there with the exact names used above.
+
+## 👥 Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/yourusername">
+        <img src="https://avatars.githubusercontent.com/u/youruserid?v=4" width="100" height="100" alt="Your Name"/><br />
+        <sub><b>Your Name</b></sub>
+      </a>
+      <br />
+      <sub>Developer & Designer</sub>
+    </td>
+  </tr>
+</table>
+
+### Contribution
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to check the [issues page](https://github.com/yourusername/smart_expense_tracker/issues).
+
+## 📦 Dependencies
 
 ```yaml
 dependencies:
