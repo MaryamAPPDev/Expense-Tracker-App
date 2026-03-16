@@ -46,16 +46,15 @@ A beautiful Flutter-based expense tracking app with Hive local database, MVVM ar
 ### Settings
 ![Settings](screenshots/settings.png)
 
-> **Tip**: Create a `screenshots` folder in your project root and place your screenshot images there with the exact names used above.
 
 ## 👥 Contributors
 
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/yourusername">
-        <img src="https://avatars.githubusercontent.com/u/youruserid?v=4" width="100" height="100" alt="Your Name"/><br />
-        <sub><b>Your Name</b></sub>
+      <a href="https://github.com/MaryamAPPDev">
+        <img src="https://avatars.githubusercontent.com/u/youruserid?v=4" width="100" height="100" alt="MaryamAppDev"/><br />
+        <sub><b>MaryamAppDev</b></sub>
       </a>
       <br />
       <sub>Developer & Designer</sub>
@@ -63,10 +62,6 @@ A beautiful Flutter-based expense tracking app with Hive local database, MVVM ar
   </tr>
 </table>
 
-### Contribution
-
-Contributions, issues, and feature requests are welcome!  
-Feel free to check the [issues page](https://github.com/yourusername/smart_expense_tracker/issues).
 
 ## 📦 Dependencies
 
