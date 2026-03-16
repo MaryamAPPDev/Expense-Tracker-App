@@ -1,6 +1,6 @@
 # Smart Expense Tracker
 
-A beautiful Flutter-based expense tracking app with Hive local database, MVVM architecture, dark mode, budget tracking, reports with pie charts, and CSV export.
+A beautiful Flutter-based expense tracking app with Hive local database, MVVM architecture, dark mode, budget tracking, reports with pie charts.
 
 ![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
@@ -16,7 +16,6 @@ A beautiful Flutter-based expense tracking app with Hive local database, MVVM ar
 - Search & Filter Transactions (Today, This Week, This Month)
 - Monthly Budget Tracking
 - Dark / Light Theme Toggle
-- Export Transactions to CSV
 - Add Dummy Data for Testing
 - Fully Offline using Hive Database
 
@@ -68,5 +67,5 @@ dependencies:
 
 ### **MaryamAppDev**
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MaryamAPPDev)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maryamappdev@gmail.com)
+
 
