@@ -31,19 +31,16 @@ A beautiful Flutter-based expense tracking app with Hive local database, MVVM ar
 ## 📱 Screenshots
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots\dashboard.png)
 
-### Add Transaction
-![Add Transaction](screenshots/add_transaction.png)
-
-### All Transactions
-![All Transactions](screenshots/all_transactions.png)
+### Categories Screen
+![categories](screenshots\categories.png)
 
 ### Reports / Analytics
-![Reports](screenshots/reports.png)
+![Reports](screenshots\reports.png)
 
 ### Settings
-![Settings](screenshots/settings.png)
+![Settings](screenshots\setting.png)
 
 
 ## 📦 Dependencies
